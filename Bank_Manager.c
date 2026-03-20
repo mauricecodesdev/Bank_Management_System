@@ -189,8 +189,8 @@ void RechercheCompte(CLIENT TClient[], int c, RESULTAT_RECHERCHE *r)
                 {
                     r->recup_indice_compte = i;
                     printf("\t\t\nN DU COMPTE :  %d \n", c);
-                    printf("\t\tSolde du Compte : \t %d \n", TClient[j].Tab_de_Compte[j].solde);
-                    printf("\t\tType du compte : Compte de Type\t %c\n", TClient[j].Tab_de_Compte[j].Type_de_Compte);
+                    printf("\t\tSolde du Compte : \t %d \n", TClient[j].Tab_de_Compte[i].solde);
+                    printf("\t\tType du compte : Compte de Type\t %c\n", TClient[j].Tab_de_Compte[i].Type_de_Compte);
                 }
                 else
                 {
